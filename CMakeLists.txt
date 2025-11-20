@@ -4,6 +4,9 @@
 # in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.16)
 
+# 在文件开头附近添加
+set(ESP_AT_TARGET_CHIP esp32c5)
+
 set(IDF_PATH ${CMAKE_SOURCE_DIR}/esp-idf)
 
 # set the module_config dir
